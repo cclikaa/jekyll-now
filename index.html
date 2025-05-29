@@ -1,23 +1,17 @@
 ---
 layout: default
+title: 首頁
 ---
 
-<div class="intro" style="padding:20px; background:#f0f0f0; margin-bottom:30px;">
-  <h1>APCS 程式語言學習資源</h1>
-  <p>歡迎來到專為高中生準備 APCS 的學習平台，這裡提供各種考試重點與練習題目，幫助你有效提升程式能力。</p>
-</div>
+<h1>歡迎來到 APCS 學習資源網站</h1>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<p>本網站專為高中生設計，整理各類程式設計相關的入門資源，從 APCS 考試到 Python、C++、演算法學習。</p>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+<h2>📚 主題分類</h2>
+<ul>
+  <li><a href="{{ site.baseurl }}/apcs">APCS 區塊</a>：認識考試制度、題型與範例</li>
+  <!-- 其他分類將來在這裡新增，例如：
+  <li><a href="{{ site.baseurl }}/cpp">C++ 基礎教學</a></li>
+  <li><a href="{{ site.baseurl }}/algo">演算法解題練習</a></li>
+  -->
+</ul>
