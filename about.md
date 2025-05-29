@@ -15,4 +15,4 @@ permalink: /about/
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[cclikaa2225@gmail.com](mailto:cclikaa2225@gmail.com)
