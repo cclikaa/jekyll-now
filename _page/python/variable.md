@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 變數與資料型態
-permalink: /python/variables/
+permalink: /python/variable/
 ---
 
 # 🧠 變數與資料型態（Variables & Data Types）
